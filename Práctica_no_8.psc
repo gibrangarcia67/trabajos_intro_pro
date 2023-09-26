@@ -9,7 +9,6 @@ Algoritmo Práctica_no_8
 	
 	Definir res como entero
 	Definir a,b Como Entero
-	i <- 1
 	Dimension Tproblema[1000]
 	Dimension n1[1000]
 	Dimension n2[1000]
@@ -32,6 +31,7 @@ Algoritmo Práctica_no_8
 				
 				caso 1:
 					
+					i <- i + 1
 					Escribir "Digita el primer numero a sumar"
 					Leer a
 					
@@ -46,10 +46,8 @@ Algoritmo Práctica_no_8
 					
 					Escribir "Resultado de la suma: ",r
 					
-					i <- i + 1
-					
 				Caso 2:
-					
+					i <- i + 1
 					Escribir "Digita el primer numero a restar"
 					Leer a
 					
@@ -65,7 +63,7 @@ Algoritmo Práctica_no_8
 					Escribir "Resultado de la Resta: ",r
 					
 				Caso 3:
-					
+					i <- i + 1
 					Escribir "Digita el primer numero a multiplicar"
 					Leer a
 					
@@ -79,11 +77,9 @@ Algoritmo Práctica_no_8
 					t[i] <- r
 					
 					Escribir "Resultado de la Multiplicacion: ",r
-					
-					i <- i + 1
-					
+				
 				Caso 4:
-					
+					i <- i + 1
 					Escribir "Digita el primer numero a dividir"
 					Leer a
 					
@@ -98,27 +94,26 @@ Algoritmo Práctica_no_8
 					
 					Escribir "Resultado de la Division: ",r
 					
-					i <- i + 1
-					
 				Caso 5:
+						
+						Escribir "Fin del programa."
 					
-					Escribir "Fin del programa."
-					
-			FinSegun
+				FinSegun
 			
 		Hasta Que res == 5
 		
+		Para j <- 1 hasta i Con Paso 1 Hacer
+			
+			Escribir "---- Operacion realizada ----"
+			Escribir Tproblema[j],"Valor:",n1[j], " Valor:",n2[j], " El resultado es:",t[j]
+			
+		FinPara
+		
 	SiNo
 		
-		Escribir "no"
+		Escribir "Acceso denegado."
 		
 	FinSi
 	
-	Para j <- 1 hasta i Con Paso 1 Hacer
-		
-		Escribir "---- Operacion realizada ----"
-		Escribir Tproblema[j],"Valor:",n1[j], " Valor:",n2[j], " El resultado es:",t[j]
-		
-	FinPara
 	
 FinAlgoritmo
