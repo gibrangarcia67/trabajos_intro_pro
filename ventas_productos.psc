@@ -176,6 +176,8 @@ Repetir
 					
 					numero_compras <- numero_compras + cantidad_televison
 					
+					Escribir "Total de compras: ",total_compras
+					
 				Caso 2:
 					
 					Escribir ""
@@ -189,6 +191,8 @@ Repetir
 					
 					numero_compras <- numero_compras + cantidad_computadoras
 					
+					Escribir "Total de compras: ",total_compras
+					
 				Caso 3:
 					
 					Escribir ""
@@ -201,6 +205,8 @@ Repetir
 					total_compras <- total_compras + total_compra
 					
 					numero_compras <- numero_compras + cantidad_celulares
+					
+					Escribir "Total de compras: ",total_compras
 					
 			FinSegun
 			
@@ -229,6 +235,8 @@ Repetir
 					
 					numero_compras <- numero_compras + cantidad_camisa
 					
+					Escribir "Total de compras: ",total_compras
+					
 				Caso 2:
 					
 					Escribir ""
@@ -242,6 +250,8 @@ Repetir
 					
 					numero_compras <- numero_compras + cantidad_pantalon
 					
+					Escribir "Total de compras: ",total_compras
+					
 				Caso 3:
 					
 					Escribir ""
@@ -254,6 +264,8 @@ Repetir
 					total_compras <- total_compras + total_compra
 					
 					numero_compras <- numero_compras + cantidad_zapato
+					
+					Escribir "Total de compras: ",total_compras
 				
 			FinSegun
 			
@@ -282,6 +294,8 @@ Repetir
 					
 					numero_compras <- numero_compras + cantidad_reloj
 					
+					Escribir "Total de compras: ",total_compras
+					
 				Caso 2:
 					
 					Escribir ""
@@ -294,6 +308,8 @@ Repetir
 					total_compras <- total_compras + total_compra
 					
 					numero_compras <- numero_compras + cantidad_cadena
+					
+					Escribir "Total de compras: ",total_compras
 					
 				Caso 3:
 					
@@ -308,7 +324,7 @@ Repetir
 					
 					numero_compras <- numero_compras + cantidad_joyas
 					
-					
+					Escribir "Total de compras: ",total_compras
 					
 			FinSegun
 			
