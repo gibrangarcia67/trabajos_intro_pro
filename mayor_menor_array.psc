@@ -47,6 +47,4 @@ Algoritmo sin_titulo
 	Escribir "Numero mayor: ",c
 	Escribir "Segundo mayor: ",h
 	
-	
-	
 FinAlgoritmo
